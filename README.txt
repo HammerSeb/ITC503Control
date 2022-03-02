@@ -1,7 +1,7 @@
 =============
 ITC503Control
 =============
-Version 1.0.0
+Version 1.0.1
 
 ITC503Control provides a GUI for remote control of the ITC503 temperature controller in the Siwick Lab. The following features are included:
 
@@ -134,6 +134,12 @@ If the GPIB address of the controler changes, change the address by changing the
 
 Change Log
 ==========
+
+1.0.1
+-----
+* misc file 'itc503gpib' removed
+* remotectrl updated to new uedinst version (now uses uedinst.tempcontroller)
+* requirements updated
 
 1.0.0
 -----

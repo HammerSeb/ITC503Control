@@ -1,11 +1,5 @@
 """
 control for ITC503 remote control
-Version: 1.0
-Author: Sebastian Hammer
-
-
-needs PyQt5
-
 """
 from functools import partial
 from datetime import datetime
@@ -14,7 +8,7 @@ from math import floor
 
 from PyQt5.QtWidgets import QMessageBox
 from PyQt5.QtCore import Qt
-from uedinst.itc503gpib import ITC503
+from uedinst.tempcontroller import ITC503
 import pyqtgraph as pg
 
 
