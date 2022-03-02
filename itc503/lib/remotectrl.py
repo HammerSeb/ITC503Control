@@ -1,11 +1,5 @@
 """
 control for ITC503 remote control
-Version: Version: 1.0.1
-Author: Sebastian Hammer
-
-
-needs PyQt5
-
 """
 from functools import partial
 from datetime import datetime

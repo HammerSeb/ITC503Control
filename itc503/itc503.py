@@ -1,11 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 GUI for ITC503 remote control 
-Version: 1.0.1
-Author: Sebastian Hammer
-
-
-needs PyQt5
 """
 import sys
 import os
