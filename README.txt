@@ -131,3 +131,10 @@ The GPIB address of the ITC503 device is defined in 'itc503gpib' as a global var
 
 which opens the connection on GPIB port '::24'.
 If the GPIB address of the controler changes, change the address by changing the varibale 'gpib_address' in line 23 of 'itc503gpib' in the uedinst package. 
+
+Change Log
+==========
+
+1.0.0
+-----
+First functional version after fieldtesting 
