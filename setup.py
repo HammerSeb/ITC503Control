@@ -1,4 +1,5 @@
-from distutils.core import setup
+from gettext import find
+from setuptools import setup, find_packages
 
 setup(name='ITC503Control',
       version='1.0.0',
@@ -6,8 +7,8 @@ setup(name='ITC503Control',
       long_description=open('README.txt').read(),
       author='Siwick Lab',
       author_email='sebastian.hammer@mail.mcgill.ca',
-      url='',
-      packages=['itc503', 'lib.remotectrl'],
-      install_requires=['numpy', 'PyQT5', 'pyqtgraph'],
+      url='https://github.com/HammerSeb/ITC503Control',
+      packages= find_packages,
+      install_requires=['numpy', 'PyQT5', 'pyqtgraph', 'uedinst@git+git://github.com/Siwick-Research-Group/uedinst.git'],
       data_files=[('ui', ['ITC503UI.ui', 'bm/b2.gif'])]
      )
