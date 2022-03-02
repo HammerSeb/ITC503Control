@@ -8,6 +8,6 @@ setup(name='ITC503Control',
       author_email='sebastian.hammer@mail.mcgill.ca',
       url='',
       packages=['itc503', 'lib.remotectrl'],
-      install_requires=['numpy', 'PyQT5', 'pyqtgraph']
+      install_requires=['numpy', 'PyQT5', 'pyqtgraph'],
       data_files=[('ui', ['ITC503UI.ui', 'bm/b2.gif'])]
      )
