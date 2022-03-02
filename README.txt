@@ -23,7 +23,7 @@ Intented usage would be opening the UI control from the command line as:
         python -m itc503.itc503
 
 The itc503 module contains a 'main()' function which is run when itc503 is run as __main__ starting the even loop of the QTPY applicaton amd the UI. 
-The programm is intended to be use with uedinst (Siwick Lab) and requires 'itc503gpib.py' to be located there. This module takes care of the GPIB communication with the controller device. See 'Dependencies and Adaptation' for further information. 
+The programm is intended to be use with uedinst (Siwick Lab) and requires 'tempcontroller.py'. This module takes care of the GPIB communication with the controller device. See 'Dependencies and Adaptation' for further information. 
 
 The GPIB address is hardcoded to be '::24'
 
@@ -125,12 +125,12 @@ Furthermore, the IntrumentException Error is introduced by the uedinst __init__ 
 
 GPIB address
 ------------
-The GPIB address of the ITC503 device is defined in 'itc503gpib' as a global variable in line 23
+The GPIB address of the ITC503 device is defined in 'uedinst.tempcontroller' as a global variable in line 23
 
 23 gpib_address = 24
 
 which opens the connection on GPIB port '::24'.
-If the GPIB address of the controler changes, change the address by changing the varibale 'gpib_address' in line 23 of 'itc503gpib' in the uedinst package. 
+If the GPIB address of the controler changes, change the address by changing the varibale 'gpib_address' in line 23 of 'uedinst.tempcontroller' in the uedinst package. 
 
 Change Log
 ==========
