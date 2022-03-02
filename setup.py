@@ -9,6 +9,6 @@ setup(name='ITC503Control',
       author_email='sebastian.hammer@mail.mcgill.ca',
       url='https://github.com/HammerSeb/ITC503Control',
       packages= find_packages(),
-      install_requires=['numpy', 'PyQT5', 'pyqtgraph', 'uedinst@git+git://github.com/Siwick-Research-Group/uedinst.git'],
+      install_requires=['numpy', 'PyQT5', 'pyqtgraph', 'uedinst@git+https://github.com/Siwick-Research-Group/uedinst.git'],
       include_package_data = True
      )
