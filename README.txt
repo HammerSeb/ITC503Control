@@ -1,7 +1,7 @@
 =============
 ITC503Control
 =============
-Version 1.0.0
+Version 1.0.1
 
 ITC503Control provides a GUI for remote control of the ITC503 temperature controller in the Siwick Lab. The following features are included:
 
