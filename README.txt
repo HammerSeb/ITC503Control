@@ -135,6 +135,12 @@ If the GPIB address of the controler changes, change the address by changing the
 Change Log
 ==========
 
+1.0.1
+-----
+* misc file 'itc503gpib' removed
+* remotectrl updated to new uedinst version (now uses uedinst.tempcontroller)
+* requirements updated
+
 1.0.0
 -----
 First functional version after fieldtesting. 

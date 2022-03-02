@@ -1,8 +1,9 @@
 from gettext import find
 from setuptools import setup, find_packages
+from itc503 import __version__
 
 setup(name='ITC503Control',
-      version='1.0.0',
+      version=__version__,
       description='GUI to control the ITC503 temperature controler',
       long_description=open('README.txt').read(),
       author='Siwick Lab',
