@@ -4,6 +4,13 @@ BPIB interface for ITC503 remote control
 Version: 1.0.0
 
 built from 'temperature.py' in uedinst ~< 1.3.2 
+added:
+* set_heater_and_gas_flow()
+* heater_power
+* gas_flow
+* set_heater_power
+* set_gas_flow
+* emergency_stop
 """
 
 from enum import IntEnum

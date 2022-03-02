@@ -137,4 +137,5 @@ Change Log
 
 1.0.0
 -----
-First functional version after fieldtesting 
+First functional version after fieldtesting. 
+Contains GPIB interface 'itc503gpib.py' for uedinst in folder misc.
