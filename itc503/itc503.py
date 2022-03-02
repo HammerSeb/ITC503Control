@@ -14,7 +14,7 @@ from PyQt5.QtWidgets import QApplication, QMainWindow
 from PyQt5.QtCore import QTimer
 import pyqtgraph as pg
 
-from lib.remotectrl import ctrl_ui_ITC503
+from .lib.remotectrl import ctrl_ui_ITC503
 
 class ControlITC503(QMainWindow):
     """
