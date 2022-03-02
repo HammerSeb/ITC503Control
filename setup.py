@@ -8,7 +8,7 @@ setup(name='ITC503Control',
       author='Siwick Lab',
       author_email='sebastian.hammer@mail.mcgill.ca',
       url='https://github.com/HammerSeb/ITC503Control',
-      packages= find_packages,
+      packages= find_packages(),
       install_requires=['numpy', 'PyQT5', 'pyqtgraph', 'uedinst@git+git://github.com/Siwick-Research-Group/uedinst.git'],
       data_files=[('ui', ['ITC503UI.ui', 'bm/b2.gif'])]
      )
